@@ -202,13 +202,61 @@
     </div>
   </section>
 
+  <!-- testimonial section -->
+  <section class="section section-testimomial grey lighten-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="carousel carousel-slider center">
+            <div class="carousel-item" href="#one">
+              <h2>Testimonial 1</h2>
+              <p class="flow-text">" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex maxime inventore
+                tenetur veritatis, molestiae, repudiandae iure dolor magni delectus mollitia ratione libero commodi
+                iusto amet dolorem placeat quae? Iure, officia. "
+                <em>-Robert Obiri from CodeBooth</em>
+              </p>
+              <div class="carousel-fixed-item center hide-on-small-and-down">
+                <a href="#" class="btn grey">Read More</a>
+              </div>
+            </div>
+            <div class="carousel-item" href="#two">
+              <h2>Testimonial 2</h2>
+              <p class="flow-text">" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex maxime inventore
+                tenetur veritatis, molestiae, repudiandae iure dolor magni delectus mollitia ratione libero commodi
+                iusto amet dolorem placeat quae? Iure, officia. "
+                <em>-Eugenia Ofosu from Vodafone Ghana</em>
+              </p>
+              <div class="carousel-fixed-item center hide-on-small-and-down">
+                <a href="#" class="btn grey">Read More</a>
+              </div>
+            </div>
+            <div class="carousel-item" href="#three">
+              <h2>Testimonial 3</h2>
+              <p class="flow-text">" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex maxime inventore
+                tenetur veritatis, molestiae, repudiandae iure dolor magni delectus mollitia ratione libero commodi
+                iusto amet dolorem placeat quae? Iure, officia. "
+                <em>-Bright Ofori from Twacedi Gh</em>
+              </p>
+              <div class="carousel-fixed-item center hide-on-small-and-down">
+                <a href="#" class="btn grey">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script>
     $(document).ready(function () {
-      // Custom JS & jQuery here
+      $('.carousel.carousel-slider').carousel({
+        fullwidth: true
+      });
+      $('.button-collapse').sideNav()
     });
   </script>
 </body>

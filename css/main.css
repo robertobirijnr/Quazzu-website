@@ -80,3 +80,8 @@
 .tabs .indicator {
     background: #6a1b9a !important;
 }
+
+.btn-extend {
+    display: block;
+    width: 100%;
+}
